@@ -53,10 +53,8 @@ void falsePositiveBait(int val) {
     int x = 0;
     if (val > 100) {
         x = val - 100;
-        (x > 0) {
-            int result = 500 / x; 
-            std::cout << "Resultado: " << result << std::endl;
-        }
+        int result = 500 / x; 
+        std::cout << "Resultado: " << result << std::endl;
     }
 }
 
